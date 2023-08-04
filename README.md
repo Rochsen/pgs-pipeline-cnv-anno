@@ -4,6 +4,7 @@
 
 - 主要脚本在scripts目录下
 - 可用于pgs生产流程的cnv注释流程在scripts/pgs_cnv_anno.py，使用前需检查相关路径设置是否符合本地情况
+- 由于ClassifyCNV需要下载外部的数据库，可以定期对ClassifyCNV里的Resources内容做更新，更新脚本可用ClassifyCNV的update_clingen.sh和parse_clingen_tsv.py进行手动更新
 
 ## Getting started
 
